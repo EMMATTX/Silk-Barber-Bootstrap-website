@@ -20,3 +20,5 @@ const myInput  = document.getElementById('myInput')
 myModal.addEventListener('show.bs.modal', () =>{
     myInput.focus()
 })
+
+

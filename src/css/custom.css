@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
 body {
   color: var(--bs-gray-600);
 }
@@ -170,6 +176,22 @@ body {
 
 .list-text-color {
   color: var(--bs-gray-600);
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.swiper .swiper-slide img {
+  display: block;
+  width: 100%;
 }
 
 .make_apppointment_area {

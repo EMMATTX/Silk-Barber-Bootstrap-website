@@ -6,6 +6,12 @@
 //import DM sans font
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&amp;display=swap");
 
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
 body{
     color:var(--bs-gray-600);
 }
@@ -217,6 +223,25 @@ body{
 .list-text-color{
     color: var(--bs-gray-600);
 }
+
+//gallery section styling
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+  
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
 
 
 
