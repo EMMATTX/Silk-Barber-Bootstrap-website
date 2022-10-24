@@ -5,8 +5,9 @@
   top: 0;
   right: 0;
   left: 0;
-  z-index: $zindex-fixed;
+  z-index: 1;
 }
+// $zindex-fixed
 
 .fixed-bottom {
   position: fixed;

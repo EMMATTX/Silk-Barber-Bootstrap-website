@@ -14,7 +14,7 @@ body{
 .home-header{
     background-color: #0000009f;
     position: relative;
-    height: 98vh;
+    height: 100vh;
 
 
 }
@@ -23,6 +23,7 @@ body{
     content: '';
     position: absolute;
     background: url("/src/img/IMG_20220822_144218_copy_1440x1920.jpg") center center/cover no-repeat;
+    background-position: 20% 28%;
     width: 100%;
     height: 100%;
     top: 0;
@@ -89,6 +90,25 @@ body{
 
     }
 
+    .about-title{
+        position: relative;
+        font-size: xx-large;
+        padding-bottom: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .about-title::after{
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 80px;
+        height: 6px;
+        border-radius: 20px;
+        background: #32cd32;
+        opacity: 50%;
+        position: absolute;
+    }
+
 
 }
 
@@ -110,7 +130,7 @@ body{
 
 //section styling and spacing
 .site-section{
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding-top: 150px;
     padding-bottom: 120px;
 }
@@ -134,7 +154,27 @@ body{
 //service section styling
 #Services{
     padding-top: 150px;
-    padding-bottom: 120px
+    padding-bottom: 120px;
+
+    .service-title{
+        position: relative;
+        font-size: xx-large;
+        padding-bottom: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .service-title::after{
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 80px;
+        height: 6px;
+        border-radius: 20px;
+        background: #ffffff;
+        opacity: 60%;
+        position: absolute;
+    }
+
 }
 
 //about section styling
@@ -180,44 +220,6 @@ body{
 
 
 
-// //gallery section grid styling
-// .row1{
-//     display: grid;
-//     grid-template-columns: repeat(4, 1fr);
-//     grid-template-rows: 1fr 1fr 1fr;
-//     grid-gap: 1rem;
-// }
-
-// .img-1,.img-2,.img-3,.img-4,.img-5,.img-6,.img-7{
-//     border: 1px #ccc solid;
-//     padding: 0.3rem;
-    
-// }
-
-// img{
-//     max-width: 100%;
-// }
-
-// .img-1 > img,
-// .img-2 > img,
-// .img-3 > img,
-// .img-4 > img,
-// .img-5 > img,
-// .img-6 > img,
-// .img-7 > img{
-//     max-width: 100%;
-//     height: auto;
-// }
-
-// .img-2{
-//     grid-column: 2/ span 2;
-//     grid-row: 1/ span 1;
-// }
-
-// .img-3{
-//     grid-row: 1/ span 2;
-//     grid-column: 4;
-// }
 
 .make_apppointment_area{
    
@@ -277,6 +279,7 @@ body{
     background: #0d0e0f;
     position: relative;
     z-index: 0;
+    
 
     .footer_top{
         padding-top: 130px;

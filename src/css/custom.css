@@ -11,13 +11,14 @@ body {
 .home-header {
   background-color: rgba(0, 0, 0, 0.6235294118);
   position: relative;
-  height: 98vh;
+  height: 100vh;
 }
 
 .home-header::before {
   content: "";
   position: absolute;
   background: url("/src/img/IMG_20220822_144218_copy_1440x1920.jpg") center center/cover no-repeat;
+  background-position: 20% 28%;
   width: 100%;
   height: 100%;
   top: 0;
@@ -67,6 +68,23 @@ body {
 #About span {
   font-weight: 500;
 }
+#About .about-title {
+  position: relative;
+  font-size: xx-large;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+#About .about-title::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  height: 6px;
+  border-radius: 20px;
+  background: #32cd32;
+  opacity: 50%;
+  position: absolute;
+}
 
 .opening-time {
   font-size: 30px;
@@ -83,7 +101,7 @@ body {
 }
 
 .site-section {
-  margin-top: 3rem;
+  margin-top: 2rem;
   padding-top: 150px;
   padding-bottom: 120px;
 }
@@ -105,6 +123,23 @@ body {
 #Services {
   padding-top: 150px;
   padding-bottom: 120px;
+}
+#Services .service-title {
+  position: relative;
+  font-size: xx-large;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+}
+#Services .service-title::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  height: 6px;
+  border-radius: 20px;
+  background: #ffffff;
+  opacity: 60%;
+  position: absolute;
 }
 
 #About h2 {

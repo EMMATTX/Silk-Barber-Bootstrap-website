@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Home | Silk Barber</title>
     <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="./css/custom.css">
@@ -11,32 +11,33 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
   </head>
   <body class="scroll-behaviour">
-    <header class="d-flex flex-column home-header">
-
     
-      <nav class="navbar navbar-expand-md navbar-dark mt-3 fixed-top">
-
-        <div class="container">
-
-          <a class="navbar-brand" href="#">Silk Est.</a>
+    <header class="d-flex flex-column home-header">
+      
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-secondary bg-gradient bg-opacity-85 mt-0 ">
   
-          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown">
+        <div class="container">
+  
+          <a class="navbar-brand text-bold" href="#">Silk Est.</a>
+  
+          <button class="navbar-toggler navbar-dark" type="button" title="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown">
             <span class="navbar-toggler-icon"></span>
           </button>
-
+  
           <div role="menu" class="collapse navbar-collapse navbar-text" id="navbarNavDarkDropdown">
             <ul class="navbar-nav ms-auto text-light">
               <li class="nav-item">
-                <a class="nav-link" href="/src/index.html">Home</a>
+                <a class="nav-link active" href="/src/index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown">Services</a>
-
-                <ul class="dropdown-menu dropdown-menu-dark">
-
+  
+                <ul class="dropdown-menu dropdown-menu-center dropdown-menu-dark bg-secondary">
+  
                   <li>
                     <a class="dropdown-item" href="#">Hair cut/styling</a>
                   </li>
@@ -47,7 +48,7 @@
                     <a class="dropdown-item" href="#">Maintenance & Repair</a>
                   </li>
                 </ul>
-
+  
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Gallery">Gallery</a>
@@ -63,7 +64,7 @@
                 <button type="button" class="btn btn-primary rounded-pill text-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   Appointment
                 </button>
-
+  
                 <!-- Modal -->
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-centered">
@@ -74,17 +75,17 @@
                       </div>
                       <div class="modal-body">
                         <div class="container justify-content-around">
-
+  
                           <!-- customer name -->
                           <div class="row input-group g-3">
                             <div class="col-xl-6 col-md-6">
                               <input type="text" class="form-control" placeholder="First name" aria-label="First name">
                             </div>
-
+  
                             <div class="col-xl-6 col-md-6">
                               <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
                             </div>
-
+  
                             <!-- customer contact -->
                             <div class="col-xl-6 col-md-6">
                               <input type="text" class="form-control" placeholder="Phone number" aria-label="Phone number">
@@ -92,7 +93,7 @@
                             <div class="col-xl-6 col-md-6">
                               <input type="email" class="form-control" placeholder="Email address" aria-label="Email address">
                             </div>
-
+  
                             <!-- customer services needed -->
                             <div class="col-xl-6 col-md-6">
                              
@@ -103,7 +104,7 @@
                                 <option value="3">Maintenance &amp; Repair</option>
                               </select>
                             </div>
-
+  
                             <!-- customer choose barber for services needed -->
                             <div class="col-xl-6 col-md-6">
                              
@@ -112,13 +113,13 @@
                                 <option value="1">Freeman</option>
                                 <option value="2">Benjamin</option>
                                 <option value="3">Joshua</option>
-                                <option value="3">Clinton I.</option>
-                                <option value="3">Emmanuel</option>
-                                <option value="3">Clinton J.</option>
-                                <option value="3">Chibueze</option>
+                                <option value="4">Clinton I.</option>
+                                <option value="5">Emmanuel</option>
+                                <option value="6">Clinton J.</option>
+                                <option value="7">Chibueze</option>
                               </select>
                             </div>
-
+  
                             <div class="col-xl-6 col-md-6">
                               <input type="datetime" class="form-control" placeholder="Choose Date" aria-label="Choose Date">
                             </div>
@@ -129,10 +130,10 @@
   
                           <div class="row">
                           </div>
-
+  
                           
                         </div>
-
+  
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-light rounded-pill bg-gradient" data-bs-dismiss="modal">Cancel</button>
@@ -151,12 +152,21 @@
       <div class="container my-auto">
         <div class="row align-items-center justify-content-center align-self-center">
 
-          <div class="col-md-7 d-flex flex-column text-center text-light align-items-center justify-content-center align-self-center">
+          <div class="col-md-9 d-flex flex-column text-center text-light align-items-center justify-content-center align-self-center">
 
             <h1 class="mb-4 text-bold">Welcome to Silk Barbing Saloon</h1>
-            <h4 class="mb-3 text-light" style="color: var(--bs-gray-600);">Your Beauty and Neatness is our Satisfaction...!</h4>
-            <p>Yes!, we want to make make you look "3s"(smart, sharp and simple) in appearance, bringing out the beauty you were created with</p>
-            <p><a href="./about.html" class="btn btn-primary rounded-pill bg-gradient text-light">Learn More</a></p>
+            <h4 class="mb-3">Your Beauty and Neatness is our Satisfaction</h4>
+            <p>Yes!, we want to make you look sharp and simple in appearance, bringing out the beauty you were created with.</p>
+            
+            <div class="container">
+              <div class="row">
+                <div class="col-md d-flex align-items-center justify-content-center">
+                  <a href="./about.html" class="btn btn-primary rounded-pill bg-gradient text-light mx-2">Learn More</a>
+
+                  <a href="./about.html" class="btn btn-primary rounded-pill bg-gradient text-light mx-2">Make Appointment</a>
+                </div>
+              </div>
+            </div>
 
           </div>
 
@@ -169,14 +179,25 @@
       <!-- about section -->
       <section class="site-section" id="About">
         <div class="container">
-          <div class="row ">
-            <div class="col-md-6 col-lg-6 col-xl-6 mb-5 mb-lg-0 ">
-              <img width="500px" height="500px" src="/src/img/stats-bg.jpg" class="img-fluid rounded-circle shadow mx-auto d-block" alt="about image">
+          
+          <div class="row">
+
+            <div class="col-12 mb-5">
+              <div class="row">
+                <div class="col mb-5">
+                  <span class="align-items-center justify-content-center about-title text-primary text-opacity-50">About Us</span>
+
+                </div>
+              </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-xl-6 ml-auto pl-lg-5 text-left ">
+
+            <div class="col-lg-6 col-xl-6 mb-5 mb-lg-0 justify-content-center">
+              <img width="524px" height="624px" src="/src/img/IMG_20220803_185212_3.jpg" class="img-fluid rounded-circle shadow mx-auto d-block border border-4 border-primary" alt="silk barbing saloon shop branch Owerri">
+            </div>
+            <div class="col-lg-6 col-xl-6 ml-auto pl-lg-5 text-left ">
               <h2 class="mb-5 text-primary">Silk Barbing Saloon</h2>
               <p class="mb-3">Is one of the best barbing saloons in town, sited in a cool and clean environment, has all the needed equipments for hair care services; with the drive to over satisfy our customers, our love has been extended in various cities accross the country...</p>
-              <p class="mb-3 text-primary opening-time">Opening hours <span>8:00 am - 9:00 pm</span></p>
+              <p class="mb-4 text-primary opening-time">Opening hours <span>8:00 am - 9:00 pm</span></p>
               <p><a href="About.html" class="btn btn-primary rounded-pill text-light">learn more</a></p>
             </div>
           </div>
@@ -184,13 +205,22 @@
       </section>
 
       <!-- Services -->
-      <section class="site-section bg-light" id="Services">
-        <div class="container-fluid py-5 ">
-          <div class="container my-5 justify-content-center">
+      <section class="site-section bg-secondary bg-opacity-70" id="Services">
+        <div class="container-fluid">
 
-            <h2 class="mb-5 text-primary">Our Services</h2>
+          <div class="container mt-0 justify-content-center">
+
             <div class="row g-5 justify-content-center">
   
+              <div class="col-12 mb-5">
+                <div class="row">
+                  <div class="col mb-5">
+                    <span class="align-items-center justify-content-center service-title text-light text-opacity-75">Our Services</span>
+  
+                  </div>
+                </div>
+              </div>
+
               <div class="col-md-4 col-sm-6">
     
                 <div class="card" style="border:1px solid #ffffff;">
@@ -459,11 +489,9 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-12">
+             
               <p class="copy_right text-center">
-                sdc fegj
-              </p>
-              <p class="copy_right text-center">
-              Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed and Coded by <a href="https://colorlib.com" target="_blank">EmmattxDev</a>
+              Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved | Designed and Coded by <a href="https://github.com/EMMATTX" target="_blank" rel="noopener noreferral">EmmattxDev</a>
               </p>
               <p></p>
             </div>

@@ -17,7 +17,7 @@
 
 .text-bg-secondary {
   color: #fff !important;
-  background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(102, 16, 242, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-success {
@@ -58,10 +58,10 @@
 }
 
 .link-secondary {
-  color: #6c757d !important;
+  color: #6610f2 !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: #565e64 !important;
+  color: #520dc2 !important;
 }
 
 .link-success {
@@ -144,7 +144,7 @@
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1030;
+  z-index: 1;
 }
 
 .fixed-bottom {
